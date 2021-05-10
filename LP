@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+<title>login page</title>
+</head>
+<style>
+body {
+background-color: lightblue;
+}
+</style>
+
+<label><b><font size="+5">
+Login page
+</font></b></label> <br>
+</br>
+Username: <input type="text" placeholder="Enter username"> <br>
+</br>
+Password: <input type="text" placeholder="*****">
+<br></br>
+
+forget my passowrd: <input type="checkbox" checked> Yes <input type="checkbox"> No <br>
+</br>
+
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Date & time
+</button>
+<p id="demo"></p>
